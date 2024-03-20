@@ -7,7 +7,8 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <a href="#">Logo Clinica</a>
+        <a href="#">Logogit push origin main
+ Clinica</a>
         <GiHamburgerMenu className="nav-icon" />
       </nav>
     </header>
