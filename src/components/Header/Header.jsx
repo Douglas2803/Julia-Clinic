@@ -5,6 +5,7 @@ import "./style.scss";
 
 const Header = () => {
   const [sidebarVisible, setSidebarVisible] = useState(false);
+
   const toggleSidebar = () => {
     setSidebarVisible(!sidebarVisible);
   };
@@ -14,11 +15,11 @@ const Header = () => {
       <nav>
         <a href="#">Logo da Clinica Aqui</a>
         <button onClick={toggleSidebar} className="icon-button">
-          <GiHamburgerMenu className="icon" />
+          <GiHamburgerMenu className="icon-menu" />
         </button>
       </nav>
       {sidebarVisible && (
-        <div className="sidebar">
+        <div className={`sidebar ${sidebarVisible ? "" : "closing"}`}>
           <nav className="nav-sidebar">
             <button onClick={toggleSidebar} className="close-button">
               <MdOutlineClose className="close" />
