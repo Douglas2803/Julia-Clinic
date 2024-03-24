@@ -3,38 +3,40 @@
 header {
   background-color: variables.$bg-header;
   width: 100%;
-  height: 8rem;
+  height: 3rem;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-evenly;
+  position: fixed;
+  z-index: 999;
 
   nav {
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-evenly;
 
     a {
       height: 50%;
       color: variables.$text-color;
-      font-size: 2rem;
+      font-size: 1.4rem;
       text-decoration: none;
     }
 
     .icon-button {
-      background: transparent;
+      background: none;
       border: none;
       height: 100%;
-      width: 5;
-    }
+      width: 30%;
 
-    .icon-menu {
-      color: variables.$text-color;
-      font-size: 10rem;
-      height: 50%;
-      background-color: none;
+      .icon-menu {
+        color: variables.$text-color;
+        height: 80%;
+        width: 100%;
+        background-color: none;
+      }
     }
 
     .icon-button:hover .icon {
@@ -43,12 +45,12 @@ header {
   }
 
   .sidebar {
-    background-color: rgba(42, 39, 39, 0.696);
+    background-color: rgba(42, 39, 39, 0.183);
     border-left: 1px solid variables.$border-color;
     position: fixed;
     top: 0;
     right: 0;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
     animation: expandSidebar 0.5s forwards;
 
     @keyframes expandSidebar {
@@ -86,9 +88,8 @@ header {
       flex-direction: column;
       border-left: 2px solid variables.$border-color;
       border-bottom: 2px solid variables.$border-color;
-
       .close-button {
-        margin-left: -18rem;
+        margin-left: -8rem;
         background: none;
         border: none;
 

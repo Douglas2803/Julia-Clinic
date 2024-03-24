@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <a href="#">Logo da Clinica Aqui</a>
+        <a href="#">Logo</a>
         <button onClick={toggleSidebar} className="icon-button">
           <GiHamburgerMenu className="icon-menu" />
         </button>
@@ -30,6 +30,7 @@ const Header = () => {
           </nav>
         </div>
       )}
+    <div className="principal"></div>
     </header>
   );
 };
