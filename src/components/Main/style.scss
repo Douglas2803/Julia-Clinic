@@ -20,9 +20,19 @@
     margin-top: 0.4rem;
 }
 
-.background-content{
+.content{
     width: 92%;
-    height: 15rem;
+    height: 18rem;
     background-color: variables.$bg-content;
     margin: 10px auto;
+
+    h2{
+        text-align: center;
+        padding: 0.6rem;
+    }
+    p{
+        text-indent: 1rem;
+        text-align: justify;
+        margin: 0.5rem;
+    }
 }
