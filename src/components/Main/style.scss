@@ -1,38 +1,21 @@
-@use '../../components/Variables/variables.scss';
-.self-img{
-    background-image: url('../../img/julia-peossal.jpeg');
-    background-size: cover;
-    width: 100%;
-    height: 20rem;  
+@use "../../components/Variables/variables.scss";
+.self-img {
+  background-image: url("../../img/julia-peossal.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
 
-    h1{
-        position: absolute;
-        z-index: 1;
-        margin-top: 15rem;
-        margin-left: 2rem;
-        color:variables.$text-color;
-    }
+  h1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    color: variables.$text-color;
+  }
 }
 
-.clinic-img{
-    width: 100%;
-    height: 7rem;
-    margin-top: 0.4rem;
-}
-
-.content{
-    width: 92%;
-    height: 18rem;
-    background-color: variables.$bg-content;
-    margin: 10px auto;
-
-    h2{
-        text-align: center;
-        padding: 0.6rem;
-    }
-    p{
-        text-indent: 1rem;
-        text-align: justify;
-        margin: 0.5rem;
-    }
+.clinic-img {
+  width: 100%;
+  height: 7rem;
+  margin-top: 0.4rem;
 }

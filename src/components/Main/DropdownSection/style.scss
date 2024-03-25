@@ -1,0 +1,25 @@
+@use "../../Variables/variables.scss";
+
+.dropdown {
+  width: 100%;
+  text-align: center;
+  .dropdown-item {
+    margin-top: 0.4rem;
+
+    button {
+      width: 92.4%;
+      height: 3rem;
+      background-color: variables.$bg-content;
+    }
+
+    p {
+      text-indent: 1rem;
+      width: 92.4%;
+      height: 10rem;
+      text-align: justify;
+      padding: 0.5rem;
+      background-color: bisque;
+      margin: auto;
+    }
+  }
+}

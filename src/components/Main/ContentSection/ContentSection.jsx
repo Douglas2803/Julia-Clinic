@@ -9,10 +9,11 @@ function ContentSection() {
         <article className="content">
           <h2>Como Funciona?</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem et
-            consectetur ducimus quisquam magnam maxime doloremque est pariatur,
-            aspernatur quaerat commodi ab ipsa nemo quia quod dignissimos quo
-            consequuntur deserunt ?
+            O protocolo tem como principal objetivo renovar a primeira camada da
+            pele com manchas. A fórmula do protocolo foi desenvolvida
+            exclusivamente para o Melasma. Promovendo segurança e resultado no
+            seu tratamento. Além de tratar Melasma. Pode ser aplicado em manchas
+            de acne, sardas e manchas de sol.
           </p>
         </article>
         <article className="content">
