@@ -5,7 +5,7 @@ import "./style.scss";
 function ContentSection() {
   return (
     <>
-      <section>
+      <section id="tratamento">
         <article className="content">
           <h2>Como Funciona?</h2>
           <p>

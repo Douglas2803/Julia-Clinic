@@ -39,7 +39,7 @@ nav {
     top: 0;
     right: 0;
     backdrop-filter: blur(3px);
-    animation: expandSidebar 0.5s forwards;
+    animation: expandSidebar 0.5s both;
 
     @keyframes expandSidebar {
       0% {

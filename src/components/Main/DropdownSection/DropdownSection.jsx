@@ -33,7 +33,7 @@ function DropdownSection() {
 
   return (
     <>
-      <section>
+      <section id="acompanhamento">
         <ul className="dropdown">
           {dropdownItems.map((item, index) => (
             <li className="dropdown-item" key={index}>

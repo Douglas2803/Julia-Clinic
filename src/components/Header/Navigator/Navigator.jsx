@@ -1,4 +1,12 @@
 import React, { useState } from "react";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+} from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
 
@@ -26,9 +34,24 @@ function Navigator() {
             <button onClick={toggleSidebar} className="close-button">
               <MdOutlineClose className="close" />
             </button>
-            <a href="#">Home</a>
-            <a href="#">Tratamentos</a>
-            <a href="#">Resultados</a>
+            <Link
+              to="tratamento"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={1000}
+            >
+            </Link>
+            <Link
+              to="acompanhamento"
+              spy={true}
+              smooth={true}
+              isDynamic={true}
+              offset={720}
+              duration={1000}
+            >
+              acompanhamento
+            </Link>
           </nav>
         </div>
       )}
