@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
 import "./style.scss";
 
 function DropdownSection() {
@@ -37,7 +38,8 @@ function DropdownSection() {
           {dropdownItems.map((item, index) => (
             <li className="dropdown-item" key={index}>
               <button onClick={() => toggleDropdown(index)}>
-                {item.buttonText}
+                <IoIosArrowDown className="arrows" />
+                <h3>{item.buttonText}</h3>
               </button>
               {openDropdownIndex === index && (
                 <p className="dropdown-content">{item.paragraphText}</p>
