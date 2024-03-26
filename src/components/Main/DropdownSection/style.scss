@@ -7,7 +7,26 @@
 
   .dropdown-item {
     margin-top: 0.4rem;
-    
+
+    animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: cover -5% cover 27%;
+
+    @keyframes appear {
+      0% {
+        translate: -100vw 0;
+      }
+
+      20% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+        translate: 0 0;
+      }
+    }
+
     button {
       width: 92.4%;
       height: 100%;
