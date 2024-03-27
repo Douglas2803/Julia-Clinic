@@ -2,8 +2,7 @@
 
 .result {
   width: 100%;
-  height: 10rem;
-  margin-bottom: 20px;
+  display: block;
 
   h1 {
     text-align: center;
@@ -13,4 +12,5 @@
   .images {
     padding: 8px;
   }
+
 }
