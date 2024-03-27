@@ -1,6 +1,6 @@
 import React from "react";
-import foto from "../../../img/clinica10.jpeg";
-import foto2 from "../../../img/clinica11.jpeg";
+import Avatar from "../../../img/clinica10.jpeg";
+import Avatar2 from "../../../img/clinica11.jpeg";
 import {
   ReactCompareSlider,
   ReactCompareSliderImage,
@@ -9,19 +9,29 @@ import {
 import "./style.scss";
 
 function ResultsSection() {
-  return(
-
-  <>
-    <h1>teste</h1>
-    <ReactCompareSlider
-      itemOne={
-        <ReactCompareSliderImage src="{foto}" srcSet="..." alt="Image one" />
-      }
-      itemTwo={
-        <ReactCompareSliderImage src="{foto2}" srcSet="..." alt="Image two" />
-      }
-    />
-  </>
+  return (
+    <>
+      <section className="result">
+        <ReactCompareSlider
+          itemOne={
+            <ReactCompareSliderImage
+              src={Avatar}
+              srcSet={Avatar}
+              alt="Image one"
+              className="slider"
+            />
+          }
+          itemTwo={
+            <ReactCompareSliderImage
+              src={Avatar2}
+              srcSet={Avatar2}
+              alt="Image two"
+              className="slider"
+            />
+          }
+        />
+      </section>
+    </>
   );
 }
 
