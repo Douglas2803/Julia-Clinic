@@ -1,0 +1,52 @@
+@use "../../Variables/variables.scss";
+
+.feedback {
+  width: 100%;
+  height: 20rem;
+  position: absolute;
+  margin-top: 56rem;
+
+  h2 {
+    text-align: center;
+  }
+
+  .button-slide-previous {
+    background: none;
+    font-size: 1.8rem;
+    border: none;
+    position: absolute;
+    top: 6rem;
+    left: 0.4rem;
+  }
+
+  .button-slide-next {
+    background: none;
+    font-size: 1.8rem;
+    border: none;
+    position: absolute;
+    top: 5.9rem;
+    left: 13.8rem;
+  }
+
+  .slide-img1 {
+    height: 15rem;
+    width: 100%;
+    background-image: url("../../../img/feedback1.jpeg");
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .slide-img2 {
+    height: 15rem;
+    width: 100%;
+    background-image: url("../../../img/feedback2.jpeg");
+    background-size: cover;
+  }
+
+  .slide-img3 {
+    height: 15rem;
+    width: 100%;
+    background-image: url("../../../img/clinica1.jpeg");
+    background-size: cover;
+  }
+}
