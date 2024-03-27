@@ -22,7 +22,7 @@ function Navigator() {
   return (
     <>
       <nav>
-        <a href="#">Logo</a>
+        <a href="#"className="logo-nav"></a>
         <button onClick={toggleSidebar} className="icon-button">
           <GiHamburgerMenu className="icon-menu" />
         </button>
@@ -40,8 +40,7 @@ function Navigator() {
               smooth={true}
               offset={-150}
               duration={1000}
-            >
-            </Link>
+            ></Link>
             <Link
               to="acompanhamento"
               spy={true}

@@ -1,0 +1,20 @@
+@use '../Variables/variables.scss';
+
+footer{
+    width: 100%;
+    background-color: variables.$bg-footer;
+
+    h3{
+        text-align: center;
+    }
+
+    li{
+        text-align: center;
+        padding: 2px;
+    }
+
+    .sub-header{
+        border-top: 1px solid white;
+        text-align: center;
+    }
+}

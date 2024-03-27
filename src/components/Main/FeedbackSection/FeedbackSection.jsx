@@ -3,8 +3,6 @@ import Slider from "react-perfect-slider";
 import { AiOutlineLeft } from "react-icons/ai";
 import { AiOutlineRight } from "react-icons/ai";
 
-import Avatar from "../../../img/julia-peossal.jpeg";
-
 import "./style.scss";
 
 function FeedbackSection() {
@@ -21,8 +19,8 @@ function FeedbackSection() {
           </button>,
         ]}
       >
-        <div className="slide-img2"></div>
         <div className="slide-img1"></div>
+        <div className="slide-img2"></div>
         <div className="slide-img3"></div>
       </Slider>
     </section>
