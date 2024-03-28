@@ -1,20 +1,45 @@
-@use '../Variables/variables.scss';
+@use "../Variables/variables.scss";
 
-footer{
-    width: 100%;
-    background-color: variables.$bg-footer;
+footer {
+  width: 100%;
+  background-color: variables.$bg-footer;
 
-    h3{
-        text-align: center;
+  aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f392698;
+    height: 8rem;
+    .logo {
+      background-image: url("../../img/Submark1-MARCADAGUABRANCA.png");
+      width: 9rem;
+      height: 9rem;
+      background-size: cover;
     }
+  }
 
-    li{
+  .section-footer {
+    .about {
+      border-bottom:2px solid #5f392698 ;
+
+      h1 {
+        text-align: center;
+        font-size: variables.$title-size;
+        color: variables.$text-color;
+        padding: 0.5rem;
+      }
+
+      li {
         text-align: center;
         padding: 2px;
+        font-size: 1.2rem;
+        color: variables.$text-color;
+      }
     }
 
-    .sub-header{
-        border-top: 1px solid white;
-        text-align: center;
+    .sub-header {
+      border-top: 1.5px solid #5f392698;
+      text-align: center;
     }
+  }
 }

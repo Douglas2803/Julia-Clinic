@@ -5,12 +5,12 @@ nav {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
   .logo-nav {
     width: 10rem;
     height: 7rem;
-    background-image: url(../../../img/LogoPrincipal-Semfundo.png);
+    background-image: url(../../../img/LogoPrincipal1-MARCADAGUABRANCA.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,19 +20,15 @@ nav {
     background: none;
     border: none;
     height: 100%;
-    width: 30%;
 
     .icon-menu {
       color: variables.$text-color;
-      height: 80%;
+      height: 70%;
       width: 100%;
       background-color: none;
     }
   }
 
-  .icon-button:hover .icon {
-    fill: variables.$nav-icon-hover-color;
-  }
 }
 .sidebar {
   background-color: rgba(42, 39, 39, 0.183);

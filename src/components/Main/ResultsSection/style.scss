@@ -3,10 +3,12 @@
 .result {
   width: 100%;
   display: block;
+  color:variables.$text-color;
 
   h1 {
     text-align: center;
     padding: 1rem;
+    font-size: variables.$title-size;
   }
   
   .images {

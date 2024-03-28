@@ -8,9 +8,10 @@
 
     h1{
         position: absolute;
-        z-index: 1;
         margin-top: 15rem;
         margin-left: 2rem;
         color:variables.$text-color;
+        font-size: variables.$title-size;
+        
     }
 }

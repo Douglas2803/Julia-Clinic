@@ -7,7 +7,7 @@ function ContentSection() {
     <>
       <section id="tratamento">
         <article className="content">
-          <h2>Como Funciona?</h2>
+          <h1>Como Funciona?</h1>
           <p>
             O protocolo tem como principal objetivo renovar a primeira camada da
             pele com manchas. A fórmula do protocolo foi desenvolvida
@@ -17,7 +17,7 @@ function ContentSection() {
           </p>
         </article>
         <article className="content">
-          <h2>Avaliação : o primeiro passo para iluminar sua pele </h2>
+          <h1>Avaliação : o primeiro passo para iluminar sua pele </h1>
           <p>
             Iniciamos com a consulta personalizada. A avaliação é fundamental
             para traçarmos um plano de tratamento de alta performance para você.

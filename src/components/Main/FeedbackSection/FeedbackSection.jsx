@@ -8,7 +8,7 @@ import "./style.scss";
 function FeedbackSection() {
   return (
     <section className="feedback">
-      <h2>Veja nosso feedback</h2>
+      <h1>Veja nosso feedback</h1>
       <Slider
         renderControls={(next, previous) => [
           <button onClick={previous} className="button-slide-previous">

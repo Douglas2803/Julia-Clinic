@@ -6,6 +6,8 @@
   animation: reveal 1s ease both;
   animation-timeline: view();
   animation-range: entry 10% cover 50%;
+  backdrop-filter: variables.$bg-filter;
+  -webkit-backdrop-filter: variables.$bg-filter;
 
   @keyframes reveal {
     0% {
@@ -21,13 +23,15 @@
     }
   }
 
-  h2 {
+  h1 {
     text-align: center;
     padding: 0.6rem;
+    font-size: variables.$title-size;
   }
   p {
     text-indent: 1rem;
     text-align: justify;
     margin: 0.5rem;
+    font-size: variables.$text-size;
   }
 }

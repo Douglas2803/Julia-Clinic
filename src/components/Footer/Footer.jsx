@@ -5,17 +5,21 @@ function Footer() {
   return (
     <footer>
       <aside>
-        <div>Logo Clinica</div>
+        <div className="logo"></div>
       </aside>
-      <section>
-        <h3>Institucional</h3>
-        <ul>
-          <li>Sobre nós</li>
-          <li>WhatsApp</li>
-          <li>Instagram</li>
-          <li>Facebook</li>
-        </ul>
-        <h3>Localização</h3>
+      <section className="section-footer">
+        <div className="about">
+          <h1>Institucional</h1>
+          <ul>
+            <li>Sobre nós</li>
+            <li>WhatsApp</li>
+            <li>Instagram</li>
+            <li>Facebook</li>
+          </ul>
+        </div>
+        <div>
+          <h1>Localização</h1>
+        </div>
         <div className="sub-header">Douglas Desenvolvimento</div>
       </section>
     </footer>

@@ -4,8 +4,8 @@ header {
   background-color: variables.$bg-header;
   width: 100%;
   height: 3rem;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: variables.$bg-filter;
+  -webkit-backdrop-filter: variables.$bg-filter;
   display: flex;
   justify-content: space-evenly;
   position: fixed;
