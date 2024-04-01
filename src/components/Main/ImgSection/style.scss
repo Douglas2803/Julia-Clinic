@@ -1,17 +1,21 @@
-@use '../../Variables/variables.scss';
+@use "../../Variables/variables.scss";
 
-.self-img{
-    background-image: url('../../img/julia-peossal.jpeg');
-    background-size: cover;
-    width: 100%;
-    height: 20rem;  
+.section-img {
+    height: 100vh;
+    
+  .self-img {
+    background-image: url('../../../img/julia-peossal.jpeg');
+    height: 70vh;
 
-    h1{
-        position: absolute;
-        margin-top: 15rem;
-        margin-left: 2rem;
-        color:variables.$text-color;
-        font-size: variables.$title-size;
-        
+    h1 {
+      position: absolute;
+      margin-top: 15rem;
+      margin-left: 2rem;
+      color: variables.$text-color;
+      font-size: variables.$title-size;
     }
+  }
+  .clinic-img{
+    height: 27vh;
+  }
 }

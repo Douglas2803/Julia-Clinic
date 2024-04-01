@@ -86,10 +86,13 @@ nav {
       }
     }
 
-    a {
-      height: 2rem;
+    .navigation-button {
+      background: none;
+      border: none;
+      color:variables.$text-color;
+      height: 1.4rem;
       font-size: 1.5rem;
-      margin-top: 4rem;
+      margin-top: 2.3rem;
     }
   }
 }

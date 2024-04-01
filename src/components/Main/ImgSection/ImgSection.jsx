@@ -1,5 +1,4 @@
 import React from "react";
-import Avatar from "../../../img/julia-peossal.jpeg";
 import Avatar2 from "../../../img/clinica1.jpeg";
 
 import "./style.scss";
@@ -7,7 +6,7 @@ import "./style.scss";
 function ImgSection() {
   return (
     <>
-      <section>
+      <section className="section-img">
         <div className="self-img">
           <h1>Ilumine sua pele</h1>
         </div>

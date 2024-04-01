@@ -5,6 +5,7 @@ import Avatar3 from "../../../img/paciente2-a.jpeg";
 import Avatar4 from "../../../img/paciente2-b.jpeg";
 import Avatar5 from "../../../img/paciente3-a.jpeg";
 import Avatar6 from "../../../img/paciente3-b.jpeg";
+
 import {
   ReactCompareSlider,
   ReactCompareSliderImage,

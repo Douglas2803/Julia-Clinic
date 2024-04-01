@@ -33,13 +33,13 @@ function DropdownSection() {
 
   return (
     <>
-      <section id="acompanhamento">
-        <ul className="dropdown">
+      <section>
+        <ul className="dropdown" id="acompanhamento">
           {dropdownItems.map((item, index) => (
             <li className="dropdown-item" key={index}>
               <button onClick={() => toggleDropdown(index)}>
                 <IoIosArrowDown className="arrows" />
-                <h3>{item.buttonText}</h3>
+                <h1>{item.buttonText}</h1>
               </button>
               {openDropdownIndex === index && (
                 <p className="dropdown-content">{item.paragraphText}</p>
