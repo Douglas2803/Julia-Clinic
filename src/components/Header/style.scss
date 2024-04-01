@@ -11,3 +11,13 @@ header {
   position: fixed;
   z-index: 999;
 }
+
+@media screen and (min-width:450px) {
+  header{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+}

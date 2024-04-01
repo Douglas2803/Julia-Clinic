@@ -1,10 +1,10 @@
 @use "../../Variables/variables.scss";
 
 .section-img {
-    height: 100vh;
-    
+  height: 100vh;
+
   .self-img {
-    background-image: url('../../../img/julia-peossal.jpeg');
+    background-image: url("../../../img/julia-peossal.jpeg");
     height: 70vh;
 
     h1 {
@@ -15,7 +15,34 @@
       font-size: variables.$title-size;
     }
   }
-  .clinic-img{
+  .clinic-img {
     height: 27vh;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .section-img {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+    .self-img {
+      background-image: url("../../../img/julia-peossal.jpeg");
+      height: 97.5vh;
+      width: 65vw;
+
+      h1 {
+        position: absolute;
+        margin-top: 80vh;
+        margin-left: 25vw;
+        color: variables.$text-color;
+        font-size: 6vh;
+      }
+    }
+    .clinic-img {
+      height: 97.5vh;
+      width: 34vw;
+      margin-top: 0;
+    }
   }
 }

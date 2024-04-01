@@ -31,7 +31,7 @@ function Navigator() {
 
   const scrollToAcompanhamento = () => {
     const viewHeight = window.innerHeight;
-    const scrollToPosition = viewHeight * 1.96;
+    const scrollToPosition = viewHeight * 1.85;
     scroll.scrollTo(scrollToPosition, {
       smooth: true,
       duration: 1000,
@@ -40,7 +40,7 @@ function Navigator() {
 
   const scrollToAnteseDepois = () => {
     const viewHeight = window.innerHeight;
-    const scrollToPosition = viewHeight * 2.55;
+    const scrollToPosition = viewHeight * 2.34;
     scroll.scrollTo(scrollToPosition, {
       smooth: true,
       duration: 1000,
@@ -49,21 +49,21 @@ function Navigator() {
 
   const scrollToRelatos = () => {
     const viewHeight = window.innerHeight;
-    const scrollToPosition = viewHeight * 4.49;
+    const scrollToPosition = viewHeight * 4.27;
     scroll.scrollTo(scrollToPosition, {
       smooth: true,
       duration: 1000,
     });
   };
 
-   const scrollToSobre= () => {
-     const viewHeight = window.innerHeight;
-     const scrollToPosition = viewHeight * 5;
-     scroll.scrollTo(scrollToPosition, {
-       smooth: true,
-       duration: 1000,
-     });
-   };
+  const scrollToSobre = () => {
+    const viewHeight = window.innerHeight;
+    const scrollToPosition = viewHeight * 5;
+    scroll.scrollTo(scrollToPosition, {
+      smooth: true,
+      duration: 1000,
+    });
+  };
 
   return (
     <>

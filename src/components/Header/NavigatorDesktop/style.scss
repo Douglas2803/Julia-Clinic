@@ -1,0 +1,32 @@
+@use "../../Variables/variables.scss";
+
+@media screen and (min-width: 450px) {
+  .logo-nav-d {
+    width: 10vw;
+    background-image: url(../../../img/LogoPrincipal1-MARCADAGUABRANCA.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 28vw;
+    margin-left: 9vw;
+  }
+  .nav-d {
+    color: variables.$text-color;
+
+    ul {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      li {
+        list-style: none;
+        margin-right: 7vw;
+        font-size: 2vh;
+      }
+
+      li:hover {
+        text-decoration: underline;
+        color: variables.$text-color;
+      }
+    }
+  }
+}
