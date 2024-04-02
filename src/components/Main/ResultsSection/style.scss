@@ -1,18 +1,40 @@
 @use "../../Variables/variables.scss";
 
+h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: variables.$title-size;
+  color: variables.$text-color;
+}
 .result {
   width: 100%;
   display: block;
-  color:variables.$text-color;
+  color: variables.$text-color;
 
+  .images {
+    padding: 8px;
+  }
+}
+
+@media screen and (min-width: 450px) {
   h1 {
     text-align: center;
     padding: 1rem;
     font-size: variables.$title-size;
-  }
-  
-  .images {
-    padding: 8px;
+    color: variables.$text-color;
   }
 
+  .result {
+    width: 80.8vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: variables.$text-color;
+
+    .images {
+      padding: 8px;
+      width: 100%;
+      background-image: cover;
+    }
+  }
 }

@@ -2,6 +2,8 @@
 
 .dropdown {
   width: 100%;
+  list-style: none;
+  margin-bottom: 2vh;
   text-align: center;
   color: variables.$text-color;
 
@@ -93,5 +95,12 @@
         }
       }
     }
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .dropdown {
+    width: 80%;
+    margin: auto;
   }
 }

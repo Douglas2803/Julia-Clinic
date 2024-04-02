@@ -6,8 +6,6 @@ header {
   height: 3rem;
   backdrop-filter: variables.$bg-filter;
   -webkit-backdrop-filter: variables.$bg-filter;
-  display: flex;
-  justify-content: space-evenly;
   position: fixed;
   z-index: 999;
 }
@@ -17,7 +15,7 @@ header {
     height: 8vh;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-wrap: nowrap;
   }
 }

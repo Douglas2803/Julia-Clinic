@@ -16,8 +16,8 @@ import "./style.scss";
 function ResultsSection() {
   return (
     <>
+      <h1>Antes e Depois</h1>
       <section className="result">
-        <h1>Antes e Depois</h1>
         <div className="images">
           <ReactCompareSlider
             itemOne={

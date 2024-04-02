@@ -25,6 +25,7 @@
     height: 100vh;
     display: flex;
     justify-content: space-between;
+    gap: 1vw;
 
     .self-img {
       background-image: url("../../../img/julia-peossal.jpeg");
@@ -41,7 +42,7 @@
     }
     .clinic-img {
       height: 97.5vh;
-      width: 34vw;
+      width: 35vw;
       margin-top: 0;
     }
   }
