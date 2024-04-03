@@ -39,7 +39,7 @@ function DropdownSection() {
             <li className="dropdown-item" key={index}>
               <button onClick={() => toggleDropdown(index)}>
                 <IoIosArrowDown className="arrows" />
-                <h1>{item.buttonText}</h1>
+                <h1 className="drop-title">{item.buttonText}</h1>
               </button>
               {openDropdownIndex === index && (
                 <p className="dropdown-content">{item.paragraphText}</p>

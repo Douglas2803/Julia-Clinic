@@ -21,7 +21,6 @@ function FeedbackSection() {
       >
         <div className="slide-img1"></div>
         <div className="slide-img2"></div>
-        <div className="slide-img3"></div>
       </Slider>
     </section>
   );

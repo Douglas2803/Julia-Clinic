@@ -31,7 +31,7 @@ function Navigator() {
 
   const scrollToAcompanhamento = () => {
     const viewHeight = window.innerHeight;
-    const scrollToPosition = viewHeight * 1.85;
+    const scrollToPosition = viewHeight * 2.2;
     scroll.scrollTo(scrollToPosition, {
       smooth: true,
       duration: 1000,
@@ -40,7 +40,7 @@ function Navigator() {
 
   const scrollToAnteseDepois = () => {
     const viewHeight = window.innerHeight;
-    const scrollToPosition = viewHeight * 2.34;
+    const scrollToPosition = viewHeight * 2.85;
     scroll.scrollTo(scrollToPosition, {
       smooth: true,
       duration: 1000,
@@ -49,7 +49,7 @@ function Navigator() {
 
   const scrollToRelatos = () => {
     const viewHeight = window.innerHeight;
-    const scrollToPosition = viewHeight * 4.27;
+    const scrollToPosition = viewHeight * 5.2;
     scroll.scrollTo(scrollToPosition, {
       smooth: true,
       duration: 1000,
@@ -58,7 +58,7 @@ function Navigator() {
 
   const scrollToSobre = () => {
     const viewHeight = window.innerHeight;
-    const scrollToPosition = viewHeight * 5;
+    const scrollToPosition = viewHeight * 7;
     scroll.scrollTo(scrollToPosition, {
       smooth: true,
       duration: 1000,
@@ -80,25 +80,47 @@ function Navigator() {
             <button onClick={toggleSidebar} className="close-button">
               <MdOutlineClose className="close" />
             </button>
-            <button onClick={scrollToTratamento} className="navigation-button">
+            <button
+              onClick={() => {
+                scrollToTratamento();
+                toggleSidebar();
+              }}
+              className="navigation-button"
+            >
               Tratamento
             </button>
             <button
-              onClick={scrollToAcompanhamento}
+              onClick={() => {
+                scrollToAcompanhamento();
+                toggleSidebar();
+              }}
               className="navigation-button"
             >
               Acompanhamento
             </button>
             <button
-              onClick={scrollToAnteseDepois}
+              onClick={() => {
+                scrollToAnteseDepois();
+                toggleSidebar();
+              }}
               className="navigation-button"
             >
               Antes e depois
             </button>
-            <button onClick={scrollToRelatos} className="navigation-button">
+            <button
+              onClick={() => {
+                scrollToRelatos();
+                toggleSidebar();
+              }}
+              className="navigation-button"
+            >
               Relatos
             </button>
-            <button onClick={scrollToSobre} className="navigation-button">
+            <button
+              onClick={scrollToSobre}
+              onClick={toggleSidebar}
+              className="navigation-button"
+            >
               Sobre
             </button>
           </nav>

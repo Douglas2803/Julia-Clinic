@@ -1,8 +1,7 @@
 @use "../../Variables/variables.scss";
 
-h1 {
+.title-section {
   text-align: center;
-  padding: 1rem;
   font-size: variables.$title-size;
   color: variables.$text-color;
 }

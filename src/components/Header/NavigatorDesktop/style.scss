@@ -1,13 +1,13 @@
 @use "../../Variables/variables.scss";
-  @media screen and (max-width: 450px) {
-    .logo-nav-d {
-      display: none;
-    }
-
-    .nav-d ul{
-      display: none;
-    }
+@media screen and (max-width: 450px) {
+  .logo-nav-d {
+    display: none;
   }
+
+  .nav-d ul {
+    display: none;
+  }
+}
 
 @media screen and (min-width: 450px) {
   .logo-nav-d {
@@ -24,14 +24,20 @@
       display: flex;
       align-items: center;
 
-      #link {
+      li {
         list-style: none;
         margin-right: 7vw;
         font-size: 2vh;
       }
 
-      #link:hover {
+      li .active {
         text-decoration: underline;
+      }
+
+      li:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.1em; /* Espessura da linha */
+        line-height: 1.5;
         color: variables.$text-color;
       }
     }
