@@ -36,7 +36,9 @@ function Footer() {
                 </div>
                 <div className="about-us">
                   <ul>
-                    <li>Sobre nós</li>
+                    <li>
+                      <a href="#">Sobre nós</a>
+                    </li>
                   </ul>
                 </div>
               </div>

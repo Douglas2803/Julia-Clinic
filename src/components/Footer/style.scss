@@ -96,6 +96,14 @@ footer {
       .about-all {
         display: flex;
         height: 27vh;
+        li a{
+          text-decoration: none;
+          color: inherit;
+        }
+        li:hover {
+          text-decoration: underline;
+          text-decoration-thickness: 4px;
+        }
 
         .about {
           height: 100%;
@@ -111,7 +119,7 @@ footer {
             }
             .about-sub-social {
               width: 100%;
-              height: 20vh;;
+              height: 20vh;
               display: flex;
 
               .social {
