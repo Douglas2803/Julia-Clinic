@@ -30,7 +30,7 @@ function Navigator() {
               spy={true}
               smooth={true}
               offset={-200}
-              duration={500}
+              duration={1000}
             >
               antes e depois
             </Link>
@@ -43,7 +43,7 @@ function Navigator() {
               spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={1000}
             >
               Relatos
             </Link>
@@ -56,7 +56,7 @@ function Navigator() {
               spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={1000}
             >
               Sobre
             </Link>

@@ -13,26 +13,24 @@ footer {
 
     .logo {
       background-image: url("../../img/Submark1-MARCADAGUABRANCA.png");
-      width: 9rem;
-      height: 9rem;
+      width: 37vh;
+      height: 37vh;
       background-size: cover;
     }
   }
 
   .section-footer {
-    h1 {
-      text-align: center;
-      font-size: variables.$title-size;
-      color: variables.$text-color;
-      padding: 0.5rem;
-    }
-
     .about {
-      border-bottom: 2px solid #5f392698;
       display: flex;
       justify-content: space-around;
       color: variables.$text-color;
-      padding-bottom: 1.3rem;
+
+      h1 {
+        text-align: center;
+        font-size: variables.$title-size;
+        color: variables.$text-color;
+        padding: 0.5rem;
+      }
 
       .social {
         width: 50%;
@@ -55,7 +53,7 @@ footer {
               display: flex;
               align-items: center;
               justify-content: flex-start;
-              gap:0.3rem;
+              gap: 0.3rem;
               margin-left: 0.3rem;
             }
 
@@ -80,6 +78,58 @@ footer {
       margin-top: 0.6rem;
       border-top: 1.5px solid #5f392698;
       text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 450px) {
+  footer {
+    aside {
+      height: 20vh;
+
+      .logo {
+        width: 25vh;
+        height: 25vh;
+      }
+    }
+    .section-footer {
+      .about-all {
+        display: flex;
+        height: 27vh;
+
+        .about {
+          height: 100%;
+          width: 50%;
+          display: flex;
+
+          .about-sub {
+            width: 100%;
+            height: 100%;
+            h1 {
+              width: 100%;
+              font-size: 4vh;
+            }
+            .about-sub-social {
+              width: 100%;
+              height: 20vh;;
+              display: flex;
+
+              .social {
+                height: 100%;
+
+                li {
+                  display: flex;
+                  justify-content: flex-start;
+                  margin-left: 35%;
+                }
+              }
+            }
+          }
+        }
+      }
+      .map-container {
+        width: 50%;
+      }
     }
   }
 }

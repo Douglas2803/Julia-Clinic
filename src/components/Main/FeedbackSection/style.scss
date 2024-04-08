@@ -1,60 +1,8 @@
 @use "../../Variables/variables.scss";
-
-.feedback {
-  width: 100%;
-  height: 13rem;
-
-  h1 {
-    text-align: center;
-    font-size: variables.$title-size;
-    color: variables.$text-color;
-    margin: 1rem 0;
-  }
-
-  .button-slide-previous {
-    background: none;
-    font-size: 1.3rem;
-    border: none;
-    position: absolute;
-    top: 3.5rem;
-    left: 0.4rem;
-  }
-
-  .button-slide-next {
-    background: none;
-    font-size: 1.3rem;
-    border: none;
-    position: absolute;
-    top: 3.3rem;
-    left: 13.8rem;
-  }
-
-  .slide-img1 {
-    height: 30vh;
-    width: 100%;
-    background-image: url("../../../img/feedback1.jpeg");
-    background-size: cover;
-  }
-
-  .slide-img2 {
-    height: 30vh;
-    width: 100%;
-    background-image: url("../../../img/feedback2.jpeg");
-    background-size: cover;
-  }
-
-  .slide-img3 {
-    height: 30vh;
-    width: 100%;
-    background-image: url("../../../img/clinica1.jpeg");
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 450px) {
   .feedback {
     width: 100%;
-    margin: 5vh 9.5vw;
+    height: 13rem;
 
     h1 {
       text-align: center;
@@ -65,37 +13,88 @@
 
     .button-slide-previous {
       background: none;
-      font-size: 1.8rem;
+      font-size: 1.3rem;
       border: none;
       position: absolute;
-      top: 6rem;
+      top: 3.5rem;
       left: 0.4rem;
     }
 
     .button-slide-next {
       background: none;
-      font-size: 1.8rem;
+      font-size: 1.3rem;
       border: none;
       position: absolute;
-      top: 5.9rem;
+      top: 3.3rem;
       left: 13.8rem;
     }
 
     .slide-img1 {
-      width: 30vw;
-      height: 70em;
+      height: 30vh;
+      width: 100%;
       background-image: url("../../../img/feedback1.jpeg");
-      background-size: contain;
-      background-repeat: no-repeat;
+      background-size: cover;
     }
 
     .slide-img2 {
-      width: 30vw;
-      height: 70em;
+      height: 30vh;
+      width: 100%;
       background-image: url("../../../img/feedback2.jpeg");
       background-size: cover;
-      background-size: contain;
-      background-repeat: no-repeat;
+    }
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .feedback {
+    margin-bottom: 2vh;
+
+    h1 {
+      text-align: center;
+      font-size: variables.$title-size;
+      color: variables.$text-color;
+      margin: 1rem 0;
+    }
+
+    .slider-fb {
+      margin: 1vh auto;
+      display: flex;
+      align-items: center;
+      width: 47vw;
+
+      .button-slide-previous {
+        background: none;
+        font-size: 1.3rem;
+        border: none;
+        position: absolute;
+        top: 50%;
+        left: 1vh;
+        transform: translateY(-50%);
+      }
+
+      .button-slide-next {
+        background: none;
+        font-size: 1.3rem;
+        border: none;
+        position: absolute;
+        top: 50%;
+        right: 0.4vh;
+        transform: translateY(-50%);
+      }
+
+      .slide-img1 {
+        height: 23vw;
+        width: 100%;
+        background-image: url("../../../img/feedback1.jpeg");
+        background-size: cover;
+      }
+
+      .slide-img2 {
+        height: 23vw;
+        width: 100%;
+        background-image: url("../../../img/feedback2.jpeg");
+        background-size: cover;
+      }
     }
   }
 }

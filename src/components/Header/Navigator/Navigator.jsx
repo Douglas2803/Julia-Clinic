@@ -117,8 +117,10 @@ function Navigator() {
               Relatos
             </button>
             <button
-              onClick={scrollToSobre}
-              onClick={toggleSidebar}
+              onClick={() => {
+                scrollToSobre();
+                toggleSidebar();
+              }}
               className="navigation-button"
             >
               Sobre

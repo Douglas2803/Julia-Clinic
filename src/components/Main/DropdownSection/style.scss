@@ -1,5 +1,4 @@
 @use "../../Variables/variables.scss";
-
 .dropdown {
   width: 100%;
   list-style: none;
@@ -33,23 +32,24 @@
       height: 100%;
       color: variables.$text-color;
       background-color: variables.$bg-content-title;
-      backdrop-filter: variables.$bg-filter;
-      -webkit-backdrop-filter: variables.$bg-filter;
-      border-left: none;
-      border-right: none;
+      border: none;
       display: flex;
       align-items: center;
+      justify-content: flex-start;
+      backdrop-filter: variables.$bg-filter;
+      -webkit-backdrop-filter: variables.$bg-filter;
 
       .arrows {
         height: 100%;
         float: left;
         font-size: 2rem;
+        margin-left: 3vw;
       }
 
       .drop-title {
         font-size: 1.2rem;
         padding: 0.5rem 0.5rem;
-        text-align: center;
+        text-align:left;
         line-height: 1.3rem;
         width: 90%;
       }
@@ -105,5 +105,9 @@
   .dropdown {
     width: 80%;
     margin: auto;
+
+    .dropdown-item button .drop-title {
+      font-size: 2rem;
+    }
   }
 }
