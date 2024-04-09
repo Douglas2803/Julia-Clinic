@@ -12,7 +12,6 @@
     animation: appear 3s ease;
     animation-timeline: view();
     animation-range: cover -5% cover 27%;
-
     @keyframes appear {
       0% {
         translate: -100vw 0;
@@ -30,7 +29,7 @@
 
     button {
       width: 100%;
-      height: 100%;
+      height: 12vh;
       color: variables.$text-color;
       background-color: variables.$bg-content-title;
       border: none;
@@ -50,7 +49,7 @@
       .drop-title {
         font-size: 1.2rem;
         padding: 0.5rem 0.5rem;
-        text-align:left;
+        text-align: left;
         line-height: 1.3rem;
         width: 90%;
       }
@@ -107,8 +106,13 @@
     width: 80%;
     margin: auto;
 
-    .dropdown-item button .drop-title {
-      font-size: 2rem;
+    .dropdown-item {
+      button{
+        height: 7vh;
+      }
+      .drop-title {
+        font-size: 2rem;
+      }
     }
   }
 }

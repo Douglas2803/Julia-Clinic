@@ -9,12 +9,13 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #5f392698;
-    height: 7rem;
+    height: 20vh;
+    margin-top: 5vh;
 
     .logo {
       background-image: url("../../img/Submark1-MARCADAGUABRANCA.png");
-      width: 37vh;
-      height: 37vh;
+      width: 24vh;
+      height: 24vh;
       background-size: cover;
     }
   }
@@ -22,43 +23,52 @@ footer {
   .section-footer {
     .about {
       display: flex;
+      width: 100%;
       justify-content: space-around;
       color: variables.$text-color;
+      .about-sub {
+        width: 100%;
+        .about-sub-social{
+          display: flex;
+          height: 18vh;
+          margin-bottom: 2vh;
+          text-decoration: none;
+        }
+        h1 {
+          text-align: center;
+          font-size: variables.$title-size;
+          color: variables.$text-color;
+          padding: 0.5rem;
+        }
 
-      h1 {
-        text-align: center;
-        font-size: variables.$title-size;
-        color: variables.$text-color;
-        padding: 0.5rem;
-      }
-
-      .social {
-        width: 50%;
-        border-right: 2px solid white;
-        ul {
-          width: 100%;
-          height: 100%;
-
-          li {
+        .social {
+          width: 50%;
+          border-right: 2px solid white;
+          ul {
             width: 100%;
-            height: 2rem;
-            text-align: center;
-            font-size: 1.2rem;
-            list-style-type: none;
+            height: 100%;
 
-            a {
-              text-decoration: none;
-              color: variables.$text-color;
-              margin-left: 1px;
-              display: flex;
-              align-items: center;
-              justify-content: flex-start;
-              gap: 0.3rem;
-              margin-left: 0.3rem;
-            }
+            li {
+              width: 100%;
+              height: 2rem;
+              text-align: center;
+              font-size: 1.2rem;
+              list-style-type: none;
 
-            a:active {
-              color: black;
+              a {
+                text-decoration: none;
+                color: variables.$text-color;
+                margin-left: 1px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 0.3rem;
+                margin-left: 0.3rem;
+              }
+
+              a:active {
+                color: black;
+              }
             }
           }
         }
@@ -70,6 +80,10 @@ footer {
           font-size: 1.2rem;
           list-style-type: none;
           text-align: center;
+          a{
+            text-decoration: none;
+            color: variables.$text-color;
+          }
         }
       }
     }
@@ -80,6 +94,22 @@ footer {
       text-align: center;
     }
   }
+  .map-container {
+        width: 100%;
+        h1{
+          color:variables.$text-color;
+          text-align: center;
+          padding: 1vh;
+        }
+        .location {
+          display: flex;
+          width: 100%;
+          p {
+            display: none;
+          }
+          text-indent: 5px;
+        }
+      }
 }
 
 @media screen and (min-width: 450px) {
@@ -141,6 +171,7 @@ footer {
         .location {
           display: flex;
           p {
+            display: block;
             width: 50%;
             list-style-type: none;
             color: variables.$text-color;

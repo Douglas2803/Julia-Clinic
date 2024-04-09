@@ -1,5 +1,14 @@
-.map{
+@media screen and (max-width: 450px) {
+  .map {
+    height: 10rem;
+    width: 100%;
+    margin: 0 3vh;
+  }
+}
+@media screen and (min-width: 450px) {
+  .map {
     height: 10rem;
     width: 50%;
     margin: 0 3vh;
+  }
 }
