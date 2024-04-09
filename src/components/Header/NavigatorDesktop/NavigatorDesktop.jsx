@@ -16,7 +16,7 @@ function Navigator() {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-170}
+              offset={-125}
               duration={1000}
             >
               Acompanhamento
@@ -29,7 +29,7 @@ function Navigator() {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-200}
+              offset={-210}
               duration={1000}
             >
               antes e depois

@@ -22,14 +22,14 @@
 
 @media screen and (min-width: 450px) {
   .section-img {
-    height: 100vh;
+    height: 98vh;
     display: flex;
     justify-content: space-between;
     gap: 1vw;
 
     .self-img {
       background-image: url("../../../img/julia-peossal.jpeg");
-      height: 97.5vh;
+      height: 100%;
       width: 65vw;
 
       h1 {
@@ -41,7 +41,7 @@
       }
     }
     .clinic-img {
-      height: 97.5vh;
+      height: 100%;
       width: 35vw;
       margin-top: 0;
     }

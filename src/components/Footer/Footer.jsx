@@ -46,7 +46,16 @@ function Footer() {
           </div>
           <div className="map-container">
             <h1>Localização</h1>
-            <Map className="map" />
+            <div className="location">
+              <p>
+                Nossa clínica, localizada no edifício corporativo X NOME ao lado
+                do banco Banrisul, no centro da cidade de Caxias do Sul, foi
+                projetada para oferecer atendimento de qualidade em um ambiente
+                confortável. Estamos próximos ao Camelódromo e Praça da
+                Bandeira.
+              </p>
+              <Map className="map" />
+            </div>
           </div>
         </div>
         <div className="sub-header">

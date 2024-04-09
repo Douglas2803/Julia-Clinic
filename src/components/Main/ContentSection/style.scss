@@ -1,4 +1,5 @@
 @use "../../Variables/variables.scss";
+
 .content {
   background-color: variables.$bg-content;
   margin: 10px auto;
@@ -42,10 +43,12 @@
     gap: 1vw;
     padding: 1vh 10vw;
     height: 40vh;
+    margin: 1vh 0;
 
     .content {
       background-color: variables.$bg-content;
       margin: 10px auto;
+      height: 100%;
       color: variables.$text-color;
       animation: reveal 1s ease both;
       animation-timeline: view();
@@ -71,13 +74,13 @@
       h1 {
         text-align: center;
         padding: 0.6rem;
-        font-size: 2.3vw;
+        font-size: variables.$title-content;
       }
       p {
         text-indent: 1rem;
         text-align: justify;
         margin: 0.5rem;
-        font-size: 1.6vw;
+        font-size: variables.$text-size;
         padding-bottom: 2vh;
       }
     }

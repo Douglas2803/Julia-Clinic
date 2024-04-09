@@ -1,4 +1,5 @@
 @use "../../Variables/variables.scss";
+
 @media screen and (max-width: 450px) {
   .feedback {
     width: 100%;
@@ -67,7 +68,7 @@
         font-size: 1.3rem;
         border: none;
         position: absolute;
-        top: 50%;
+        top: 52%;
         left: 1vh;
         transform: translateY(-50%);
       }

@@ -96,19 +96,20 @@ footer {
       .about-all {
         display: flex;
         height: 27vh;
-        li a{
-          text-decoration: none;
-          color: inherit;
-        }
-        li:hover {
-          text-decoration: underline;
-          text-decoration-thickness: 4px;
-        }
 
         .about {
           height: 100%;
           width: 50%;
           display: flex;
+
+          li a {
+            text-decoration: none;
+            color: inherit;
+          }
+          li:hover {
+            text-decoration: underline;
+            text-decoration-thickness: 4px;
+          }
 
           .about-sub {
             width: 100%;
@@ -137,6 +138,16 @@ footer {
       }
       .map-container {
         width: 50%;
+        .location {
+          display: flex;
+          p {
+            width: 50%;
+            list-style-type: none;
+            color: variables.$text-color;
+            text-align: justify;
+          }
+          text-indent: 5px;
+        }
       }
     }
   }

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ImgSection from "./ImgSection/ImgSection";
 import ContentSection from "./ContentSection/ContentSection";
-import DropdownSection from "./DropdownSection/DropdownSection";
 import ResultsSection from "./ResultsSection/ResultsSection";
 import FeedbackSection from "./FeedbackSection/FeedbackSection";
 
@@ -12,7 +11,6 @@ const Main = () => {
     <main>
       <ImgSection />
       <ContentSection />
-      <DropdownSection />
       <ResultsSection />
       <FeedbackSection />
     </main>

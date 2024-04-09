@@ -1,4 +1,5 @@
 import React from "react";
+import DropdownSection from "./DropdownSection/DropdownSection";
 
 import "./style.scss";
 
@@ -16,6 +17,7 @@ function ContentSection() {
           </p>
         </article>
       </section>
+      <DropdownSection />
     </>
   );
 }
